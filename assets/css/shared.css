@@ -7,6 +7,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 15px 60px;
+    position: absolute;
 }
 #main-logo a {
     color: rgb(245, 243, 160);
@@ -33,7 +34,7 @@ header > nav > ul > li > a{
     color: #739620;
 }
 header > nav > ul > li > a:hover{
-    color: #fff;
+    color: #000;
     background-color: rgb(255, 251, 0);
     padding: 12px 24px ;
     transition: 0.5s;
