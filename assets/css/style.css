@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap");
-#hero {
+.hero {
   height: 800px;
   background-image: url("../img/places/bg-img.jpg");
   background-position: center;
   background-size: cover;
 }
-#hero-content {
+.hero-content {
   width: 900px;
   background-color: rgba(51, 47, 47, 0.8);
   box-shadow: 2px 4px 8px rgb(68, 67, 67);
@@ -22,7 +22,7 @@
   color: #fff;
   text-transform: uppercase;
 }
-#hero-content > h1 {
+.hero-content > h1 {
   font-size: 50px;
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -32,7 +32,7 @@
   font-weight: 300;
 
 }
-#hero-content > a {
+.hero-content > a {
     text-decoration: none;
     color: #000;
     border-radius: 8px;
@@ -46,7 +46,7 @@
     padding: 12px 24px ;
     background-color: rgb(255, 251, 0);
 }
-#hero-content> a:hover{
+.hero-content> a:hover{
     color: #000;
 
     
