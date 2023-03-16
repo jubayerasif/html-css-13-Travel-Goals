@@ -1,3 +1,6 @@
+body{
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
 header{
     position: static;
 }
@@ -5,6 +8,11 @@ header{
 main li img{
     width: 300px;
     height: 300px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 
