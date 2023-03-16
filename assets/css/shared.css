@@ -10,6 +10,8 @@ header{
     position: absolute;
     width: 100%;
     box-sizing: border-box;
+    top: 0;
+    left: 0;
 }
 #main-logo a {
     color: rgb(245, 243, 160);
@@ -33,7 +35,7 @@ header > nav > ul > li{
 }
 header > nav > ul > li > a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 251, 0);
     font-weight: bold;
 }
 header > nav > ul > li > a:hover{
