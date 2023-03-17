@@ -5,14 +5,13 @@ body {
 header {
   position: static;
 }
-
 #main-logo > a,
-header > nav > ul > li > a{
-    color: rgb(183, 230, 235);
+header > nav > ul > li > a {
+  color: rgb(183, 230, 235);
 }
-header > nav > ul > li > a:hover{
-    background-color: rgb(183, 230, 235);
-    color: rgb(59, 59, 59);
+header > nav > ul > li > a:hover {
+  color: rgb(59, 59, 59);
+  background-color: rgb(183, 230, 235);
 }
 
 main ul {
@@ -24,6 +23,7 @@ main ul {
 }
 main li {
   display: flex;
+  overflow: hidden;
   background-color: #fff;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
@@ -31,7 +31,6 @@ main li {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  overflow: hidden;
 }
 main li img {
   width: 300px;
@@ -40,8 +39,8 @@ main li img {
   /* border-top-left-radius: 6px;
     border-bottom-left-radius: 6px; */
 }
-main li:nth-of-type(3){
-    grid-column: 1 / span 2;
+main li:nth-of-type(3) {
+  grid-column: 1 / span 2;
 }
 .item-content {
   padding: 24px;
@@ -49,16 +48,16 @@ main li:nth-of-type(3){
   flex-direction: column;
   justify-content: space-between;
 }
-.item-content h2{
-    margin: 0;
+.item-content h2 {
+  margin: 0;
 }
 .actions {
   text-align: right;
 }
 .actions a {
+  color: rgb(22, 211, 228);
   text-decoration: none;
   padding: 8px;
-  color: rgb(22, 211, 228);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
